@@ -1,0 +1,21 @@
+/* Inside of the exercise.html page:
+
+- link the external exercise.css page
+- create a div with:
+  - h1 with the content: I am a heading
+  - p with the content: I am a p tag
+  - img from the internet
+
+Inside of the exercise.css page:
+
+- style the p to be as close as possible to the h1
+- set a height and width to the image so it is a 200px by 200px square */
+.pTag {
+   font-size: 30px;
+   font-weight: bold;
+  
+}
+img {
+    height: 200px;
+    width: 200px;
+}
