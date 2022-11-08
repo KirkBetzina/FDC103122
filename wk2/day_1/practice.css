@@ -1,0 +1,8 @@
+.headline {
+    font-style: underline;
+    color: grey;
+}
+.bulletPoints {
+    list-style: square;
+    color: red;
+}
