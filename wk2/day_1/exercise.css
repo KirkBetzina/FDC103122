@@ -20,10 +20,11 @@
 
 #monkey {
   color: rebeccapurple;
+  
 }
 
 .whale {
-  background-color: black;
+  background-color: rgb(29, 129, 134);
   color: yellow;
   font-family: sans-serif;
 }
