@@ -7,10 +7,36 @@ const A = document.getElementById('A');
 const B = document.getElementById('B');
 const C = document.getElementById('C');
 
-A.innerHTML = 'Red';
-B.innerHTML = 'Green';
-C.innerHTML = 'Yellow';
+// A.innerHTML = 'Red';
+// B.innerHTML = 'Green';
+// C.innerHTML = 'Yellow';
 
 A.style.backgroundColor = 'red';
 B.style.backgroundColor = 'green';
 C.style.backgroundColor =  'yellow';
+
+//////////////////
+// homework for day 2 section below //
+//////////////////
+
+const btnA = document.getElementById('btnA');
+const btnB = document.getElementById('btnB');
+const btnC = document.getElementById('btnC');
+
+function ChangeA () {
+    btnA.style = 'font-style: italic;'
+
+};
+console.log(ChangeA)
+
+function ChangeB () {
+    btnB.style = 'font-weight: 900'
+    
+};
+console.log(ChangeB)
+
+function ChangeC () {
+    alert("youve clicked on C");
+};
+console.log(ChangeC)
+
