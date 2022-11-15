@@ -1,5 +1,6 @@
 body {
     background-color: lightskyblue;
+;
 }
 
 div {
@@ -8,17 +9,28 @@ div {
 }
 
 #container {
-    border: 2px solid black;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
 }
 
 #A {
     border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #B {
     border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #C {
-    border: 1px solid yellow;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
