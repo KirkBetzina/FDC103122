@@ -7,14 +7,19 @@
     <title>W3D1 Practice</title>
     <link rel="stylesheet" href="practice.css" />
   </head>
+  
   <body>
     <div class="flexBox" id="containerBox">
       <div id="practiceBox"></div>
     </div>
     <div class="flexBox">
-      <button>Make box small</button>
-      <button>Return to normal</button>
-      <button>Make box large</button>
+      <!-- You will overwrite the css properties with the "style = width: 25px; height 25px; " the border in the css will go away -->
+      <button onclick="pBox.style.width = '25px'; pBox.style.height = '25px'; ">Make box small</button>
+      <button onclick="pBox.style.width = '100px'; pBox.style.height = '100px';">Return to normal</button>
+      <button onclick="pBox.style.width = '250px'; pBox.style.height = '250px';">Make box large</button>
     </div>
   </body>
+  <script>
+    var pBox = document.getElementById('practiceBox')
+  </script>
 </html>

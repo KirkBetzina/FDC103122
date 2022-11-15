@@ -1,0 +1,36 @@
+body {
+    background-color: lightskyblue;
+;
+}
+
+div {
+    color: white;
+    width: 250px;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+#A {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#B {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#C {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

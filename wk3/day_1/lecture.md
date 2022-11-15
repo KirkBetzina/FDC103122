@@ -95,7 +95,7 @@ Inside the practice folder, there is a start code for a box and 3 buttons.
 
 Apply onclick to each button to:
 - make the box bigger
-- return the box to nromal
+- return the box to normal
 - make the box smaller
 
 ## FUNCTION
