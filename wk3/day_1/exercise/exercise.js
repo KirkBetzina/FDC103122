@@ -27,16 +27,16 @@ function ChangeA () {
     btnA.style = 'font-style: italic;'
 
 };
-console.log(ChangeA)
+
 
 function ChangeB () {
     btnB.style = 'font-weight: 900'
     
 };
-console.log(ChangeB)
+
 
 function ChangeC () {
     alert("youve clicked on C");
 };
-console.log(ChangeC)
+
 
