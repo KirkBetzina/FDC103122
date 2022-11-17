@@ -7,18 +7,24 @@
 var position = 0;
 
 function scrollPrev() {
-  if (position < 0){
-    var picSlider = document.getElementById('imgSlider')
-    picSlider +=1;
-
-  }
+  if (position < 5) {
+    var slider = document.getElementById("imgSlider");
+    position += 1;
+    var offset = position * 400 + 4;
+    slider.style.transform = "translateY(-" + offset + "px)";
+  };
   // code here!
 };
+console.log(scrollPrev());
 
 
 function scrollNext() {
-  if (position < 2) {
-    var picSlider = document.getElementById('imgSlider')
-  }
+  if (position > 0) {
+    var slider = document.getElementById("imgSlider");
+    position -= 1;
+    var offset = position * 400 + 4;
+    slider.style.transform = "translateY(-" + offset + "px)";
+  };
   // code here!
-}
+};
+
