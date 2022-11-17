@@ -52,3 +52,31 @@ function ChangeC () {
 ///////////////////////////////////////////////
 // Homework for Day 3
 ///////////////////////////////////////////////
+var position = 0;
+
+function scrollPrev() {
+  if (position < 5) {
+    var slider = document.getElementById("imgSlider");
+    position += 1;
+    var offset = position * 400 + 4;
+    slider.style.transform = "translateY(-" + offset + "px)";
+  };
+  // code here!
+};
+
+
+
+function scrollNext() {
+  if (position > 0) {
+    var slider = document.getElementById("imgSlider");
+    position -= 1;
+    var offset = position * 400 + 4;
+    slider.style.transform = "translateY(-" + offset + "px)";
+  };
+  // code here!
+};
+
+function clickButton() {
+    document.querySelector('#previous').click();
+};
+setInterval(clickButton, 2000);

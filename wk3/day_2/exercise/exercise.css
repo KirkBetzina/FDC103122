@@ -34,3 +34,26 @@ div {
     align-items: center;
     justify-content: center;
 }
+/* PicSlider Section */
+#carouselWindow {
+    width: 100vw;
+    height: 400px;
+    border: solid 1px black;
+    overflow: hidden;
+    /* add the additional required properties */
+  }
+  
+  #imgSlider {
+    border: solid 1px red;
+    width: 100vw;
+  }
+  
+  img {
+    width: 100vw;
+    height: 400px;
+    /* update to fit a single image in the window */
+  }
+  #buttonContainer {
+    margin-left: 820px;
+  }
+  /* End PicSlider Section */
