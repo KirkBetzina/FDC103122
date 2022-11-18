@@ -78,5 +78,18 @@ function scrollNext() {
 
 function clickButton() {
     document.querySelector('#previous').click();
+    if (position == 5){
+        position
+    }
 };
 setInterval(clickButton, 2000);
+
+var fName = document.getElementById("fname");
+var email = document.getElementById("email");
+
+function createAlert () {
+  var usernameInputValue = fName.value + " " + email.value;
+  alert(usernameInputValue);
+  usernameInputValue.value = '';
+
+};
