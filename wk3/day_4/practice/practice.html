@@ -12,13 +12,32 @@
     <div id="header"><h1>To Do App</h1></div>
     <div id="main">
       <div>
-        <label for="displayName">Enter Task: </label>
-        <input type="text" name="displayName" id="displayName" />
-        <button oncick="addTask()">Add</button>
+        <label for="task">Enter Task: </label>
+        <input type="text" name="task" id="task" />
+        <button onclick="addTask()">Add</button>
       </div>
       <br />
       <h3>Task</h3>
-      <ul id="dateCol"></ul>
+      <ul id="taskCol">
+
+      </ul>
+    </div>
+    <div id="container">
+      <div id="editContainer">
+        <label for="edit">Enter Task to Edit: </label>
+        <input type="text" name="edit" id="edit" />
+        <label for="changes">Enter changes: </label>
+        <input type="text" name="changes" id="changes" />
+        <button onclick="editTask()">Submit</button>
+      </div>
+      <div id="deleteContainer">
+        <label for="delete">Enter Task to Delete: </label>
+        <input type="text" name="delete" id="delete">
+        <button onclick="deleteTask()">Delete</button>
+      </div>
+    </div>
+    <div id="buttonBox">
+      <button onclick="clearAll()" id="clearButton">Clear</button>
     </div>
     <div id="footer"><h4>VetInTech Week 3 Day 4</h4></div>
   </body>
