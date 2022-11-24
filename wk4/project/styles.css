@@ -1,4 +1,9 @@
 /* ///////////////////////////////Yvonnes Css Start/////////////////////////////////////// */
+/* * {
+background: #BECE7B;
+
+background: linear-gradient(45deg, #BECE7B 0%, #1C6EA4 56%, #C568BA 100%);
+} */
 #topPicture {
     width: 800px;
     display: block;
@@ -113,34 +118,37 @@ border: solid
 #message, #imageUrl{
     background-color: rgb(241, 240, 240);
 }
-#feed {
-    margin-left: 20px;
-}
+
 .comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
     background-color: rgb(241, 240, 240);
     border: 1px solid black;
     width: 200px;
-    margin: -10px 5px 10px 5px;
+    margin: auto;
     border-radius: 5px;
     text-align: center;
 }
-​
+
 #userInput{
     background-color: rgb(123, 206, 231);
     border: 1px solid rgb(8, 73, 146);
     border-radius: 5px;
     font-style: italic black;
-    margin-bottom: 100px;
 }
+
 img{
     width: 200px;
     height: auto;
+    margin-top: 10px;
 }
-#messagebox {
-    margin-left: 50%;
-    margin-bottom:  15px;
-}
-#urlBox {
-    margin-left: 50%;
+
+.container, .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 /* ////////////////////////Sophia Css End */

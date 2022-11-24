@@ -18,6 +18,7 @@
         <h1>Welcome to Harley's World</h1>
         <button id="clickhere" onclick="clicked()">Sign In</button>
     </div>
+    <hr>
     <div id="sidebarContainer">
         <div id="Sidebar">
             <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gamebyte.com%2Fwp-content%2Fuploads%2F2020%2F06%2FCrash-Bandicoot.jpg&f=1&nofb=1&ipt=3dad684a85ee12ed6b5d6671e770818d9f028d466c37f3f07c529307c196821a&ipo=images">Crash Bandicoot</a>
@@ -27,26 +28,27 @@
             <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f7f820cd2626469ba985e27%2F960x0.jpg%3Ffit%3Dscale&f=1&nofb=1&ipt=8745f3413dbf9adebdd79161e88f36c457eda9132b0ccf71293b22557ccfc12c&ipo=images">Dat Not Good...</a>
         </div>
     </div>
-    <div id="messagebox">
-        <label for="message"></label><br>
-        <textarea id="message" type="text" placeholder="enter your text here"></textarea>
-        <input id = "userInput" type="submit" value="Post" onclick=postFeedback()>
-    </div>
-    <div id="urlBox">
+    <div class ="input">
+        <div>
+            <label for="message"></label><br>
+            <textarea id="message" type="text" placeholder="enter your text here"></textarea>
+            <input id = "userInput" type="submit" value="Post" onclick=postFeedback()>
+        </div>
+     <div>
         <form>
-            <label for="image">Enter Image URL</label>
+            <label for="image">Enter Image URL</label><br>
             <input type="url" id="imageUrl" name="image">
-        </form>
+          </form>
+     </div>
     </div>
-    <div>
-    <div id="feed"> 
+    <div class="container"> 
         <h2>FEED</h2>
         <div id="renderedMessage">
             
             
         </div>
     </div>
-        <hr>
+  
     <div id="carousel">
         <div id="window">
                 <div id="slider">
