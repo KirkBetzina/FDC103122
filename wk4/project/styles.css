@@ -1,0 +1,146 @@
+/* ///////////////////////////////Yvonnes Css Start/////////////////////////////////////// */
+#topPicture {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid transparent;
+    padding: 5px;
+    border-image: url(border.png) 30 stretch;
+    background-color: green;
+}
+#Logoformat{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+#bottomPicture {
+height: 150px;
+width: 150px;
+background-color: blue;
+border: solid green 2px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 50%;
+
+margin-bottom: 20px;
+}
+#clickhere{
+height: 50px;
+width: 100px;
+border-radius: 50px;
+border:none;
+font-family: Arial, Helvetica, sans-serif;
+background-color: green;
+}
+h1{
+color: red;
+text-align: center;
+text-shadow: 1px 1px;
+}
+hr{
+border: solid
+}
+/* ////////////////////////////////Yvonnes CSS End///////////////////////////////////// */
+/* /////////////////////////////////////Kirks Css Start/////////////////////////////////////////////// */
+
+
+#window {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+  }
+  #carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+#postDisplay {
+
+    width: 100vw;
+    height: fit-content;
+    display: block;
+
+
+}
+
+.img1 {
+    width: 600px; 
+    height: 400px;
+}
+.New {
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+}
+
+#invisibleButton {
+    
+    display: none;
+}
+#buttonContainer {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/* ////////////////////////////////////Kirks Css End///////////////////////////////////////////////////// */
+/* /////////////////////////////////////////Courtney Css Start//////////////////////////////////////////////////////// */
+
+#Sidebar {
+    background-color:rgb(237, 173, 25);
+    width: 150px; /* Change to % based on position */
+    height: 175px; /* Change to % based on position */
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px rgb(39, 152, 26);
+    font-family: fantasy; 
+    margin-left: 20px;
+    }
+
+/* ////////////////////////////Courtney Css End////////////////////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////Sophia Css Start///////////////////////////////////////  */
+#message, #imageUrl{
+    background-color: rgb(241, 240, 240);
+}
+#feed {
+    margin-left: 20px;
+}
+.comment{
+    background-color: rgb(241, 240, 240);
+    border: 1px solid black;
+    width: 200px;
+    margin: -10px 5px 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+​
+#userInput{
+    background-color: rgb(123, 206, 231);
+    border: 1px solid rgb(8, 73, 146);
+    border-radius: 5px;
+    font-style: italic black;
+    margin-bottom: 100px;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+#messagebox {
+    margin-left: 50%;
+    margin-bottom:  15px;
+}
+#urlBox {
+    margin-left: 50%;
+}
+/* ////////////////////////Sophia Css End */

@@ -5,15 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group Project</title>
-    <link rel="stylesheet" src="project/styles.css" />
-    <script type="text/javascript" src="project/script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
+    <div>
+        <img id="topPicture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLNK-VdseYb66UzR0y31pbm-oWIl74GH3xK3j00DSc8FskcrVujcFuUuIdPCWnCzQgAg&usqp=CAU" alt="harley quinn" class="center">
+    </div>
+        <hr>
+    <div id="Logoformat">
+        <img id="bottomPicture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTXpT_Gg0wWgMSHLaYrqWGw9-GSOw9ZoLnw&usqp=CAU" alt="harley quinn logo">
+        <h1>Welcome to Harley's World</h1>
+        <button id="clickhere" onclick="clicked()">Sign In</button>
+    </div>
+    <div id="sidebarContainer">
+        <div id="Sidebar">
+            <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gamebyte.com%2Fwp-content%2Fuploads%2F2020%2F06%2FCrash-Bandicoot.jpg&f=1&nofb=1&ipt=3dad684a85ee12ed6b5d6671e770818d9f028d466c37f3f07c529307c196821a&ipo=images">Crash Bandicoot</a>
+            <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapi.duniagames.co.id%2Fapi%2Fcontent%2Fupload%2Ffile%2F9173439061592899889.jpg&f=1&nofb=1&ipt=83ce32823545b4b1c08ef186a389bfd55148fb504277c3f90ec4d92b3288bd0e&ipo=images">Neo Cortex</a>
+            <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mordeo.org%2Ffiles%2Fuploads%2F2020%2F06%2FCoco-In-Crash-Bandicoot-4-It%25E2%2580%2599s-About-Time-4K-Ultra-HD-Mobile-Wallpaper-scaled.jpg&f=1&nofb=1&ipt=f36ba0b891feb4d62929e258640a0e3606d68cc368df2e5dcb7323d179f2045d&ipo=images">Coco Bandicoot</a>
+            <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F97%2F6f%2F38%2F976f38bfd04c5e6c0e622ef8599f7baf.jpg&f=1&nofb=1&ipt=dfddf975370a58f49619d4183a4c3668bebeef6e5516c97c626363a172cb4bd8&ipo=images">Ripper Roo</a>
+            <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f7f820cd2626469ba985e27%2F960x0.jpg%3Ffit%3Dscale&f=1&nofb=1&ipt=8745f3413dbf9adebdd79161e88f36c457eda9132b0ccf71293b22557ccfc12c&ipo=images">Dat Not Good...</a>
+        </div>
+    </div>
+    <div id="messagebox">
+        <label for="message"></label><br>
+        <textarea id="message" type="text" placeholder="enter your text here"></textarea>
+        <input id = "userInput" type="submit" value="Post" onclick=postFeedback()>
+    </div>
+    <div id="urlBox">
+        <form>
+            <label for="image">Enter Image URL</label>
+            <input type="url" id="imageUrl" name="image">
+        </form>
+    </div>
+    <div>
+    <div id="feed"> 
+        <h2>FEED</h2>
+        <div id="renderedMessage">
+            
+            
+        </div>
+    </div>
+        <hr>
     <div id="carousel">
-
-
+        <div id="window">
+                <div id="slider">
+                <img src="images\42-north-OE7H8Zp1mw8-unsplash.jpg" alt="adorable cat" />       
+                <img class="img1" src="images\aiden-craver-Ki6iDtSCmhg-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\alba-rebecca-6qRG3dzCqtI-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\andrew-mead-itCOvTKsyQg-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\avel-chuklanov-GNVn_4bC2kk-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\banesa-08fgb0BPAW8-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\daria-shatova-46TvM-BVrRI-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\dennis-van-dalen-ieOhBqufCw8-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\emmalee-couturier-Shf_B7x8gDA-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\farid-amin-zh5VLKdDfww-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\geronimo-giqueaux-vPRegwzK7k4-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\jasmin-schuler-PUTVh0Z_qNQ-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\jessica-lewis-xz1ZYspQ9Ts-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\karina-vorozheeva-rW-I87aPY5Y-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\lars-van-poucke-7Y7PKR4oO_Y-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\maksym-tymchyk-O-8IfggFCSE-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\marko-blazevic-YYjjtbQrsqw-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\modcatshop-pdALzg0yN-8-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\ryunosuke-kikuno-kqGTc0F8hk0-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\sascha-bosshard-VmJDcG0rhDQ-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\the-lucky-neko-2JcixB1Ky3I-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\tran-mau-tri-tam-FbhNdD1ow2g-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\victor-serban-7OPdKZvaIoM-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\zac-wolff-Wg0iPwn0ToU-unsplash.jpg" alt="adorable cat" />
+                <img class="img1" src="images\clayton-malquist-Kgx8n2fea1w-unsplash.jpg" alt="adorable cat" />
+            </div> 
+        </div>
+    </div>
+    <div id="postDisplay"></div>
+    <div id="buttonContainer">
+        <button id="userInputs" onclick="capturePost()">Creates Div</button>
+        <button id="buttonRight" onclick="ScrollRight()">PUSH MEEEEE!</button>
+        <button id="invisibleButton" onclick="invisibleButton()">JS WILL PUSH ME!!!!!!</button>
 
     </div>
     
 </body>
+<script src="script.js"></script>
 </html>
